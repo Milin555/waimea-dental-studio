@@ -1,22 +1,22 @@
 
 /* Practice palette */
 :root {
-  --accent: #2F4858;
-  --accent-dark: #1E2F3A;
-  --accent-soft: #EEF2F4;
+  --accent: #24A3B1;
+  --accent-dark: #011F23;
+  --accent-soft: #EAF6F7;
   --accent-warm: #C8A96A;
 }
 a[class*="button"], .button, button[type="submit"], input[type="submit"],
 [class*="btn"]:not([class*="text"]) {
-  background-color: #2F4858 !important;
-  border-color: #2F4858 !important;
+  background-color: #24A3B1 !important;
+  border-color: #24A3B1 !important;
 }
 a[class*="button"]:hover, .button:hover, [class*="btn"]:not([class*="text"]):hover {
-  background-color: #1E2F3A !important;
-  border-color: #1E2F3A !important;
+  background-color: #011F23 !important;
+  border-color: #011F23 !important;
 }
 [class*="section"][class*="dark"], footer[class*="footer"] {
-  background-color: #1E2F3A !important;
+  background-color: #011F23 !important;
 }
-[class*="tag"], [class*="badge"], [class*="eyebrow"] { color: #2F4858 !important; }
-::selection { background: #2F4858; color: #fff; }
+[class*="tag"], [class*="badge"], [class*="eyebrow"] { color: #24A3B1 !important; }
+::selection { background: #24A3B1; color: #fff; }
